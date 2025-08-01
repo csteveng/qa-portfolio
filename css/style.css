@@ -18,7 +18,6 @@ nav {
     background-color: black;
     color: whitesmoke;
     padding: 1em;
-    height: 100%;
 }
 
 body {
@@ -32,12 +31,20 @@ body {
 main {
     margin: 4em auto;
     width: 80%;
-    height: 50vh;
     border: 2px solid black;
 }
 
+section {
+    margin: 4em;
+}
+
+section h2 {
+    text-align: left;
+    padding-bottom: 0.5em;
+    padding-left: 2em;
+}
+
 footer {
-    position: fixed;
     background-color: black;
     color: whitesmoke;
     text-align: center;
@@ -52,29 +59,29 @@ iframe {
 
 ul {
     display: inline;
+    width: fit-content;
     list-style-type: none;
-    text-align: center;
-    float: right;
-    margin: auto;
     padding: 0.5em;
 }
 
 li{
-    border-color: whitesmoke;
-    border: 1px solid;
     font-weight: 600;
     display: inline;
     float: right;
 }
 
 li a {
-    display: block;
-    color: whitesmoke;
-    text-align: center;
+    display: inline;
+    color: whitesmoke;  
     text-decoration: none;
     padding: 1em;
 }
 
 li a:hover {
     background-color: rgb(53, 53, 53);
+}
+
+hr {
+    width: 35%;
+    border-top: 0.2em solid black;
 }
