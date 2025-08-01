@@ -6,10 +6,10 @@
     font-size: 40pt;
     text-align: left;
     display: inline;
+    margin-left: 1em;
 }
 
 header {
-    position: sticky;
     top: 0;
     width: 100%;
 }
@@ -59,19 +59,17 @@ iframe {
 
 ul {
     display: inline;
-    width: fit-content;
     list-style-type: none;
-    padding: 0.5em;
+    padding: 1.5em;
+    float: right;
 }
 
 li{
     font-weight: 600;
     display: inline;
-    float: right;
 }
 
 li a {
-    display: inline;
     color: whitesmoke;  
     text-decoration: none;
     padding: 1em;
