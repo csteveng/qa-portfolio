@@ -2,7 +2,7 @@
     margin: 0;
 }
 
-#logo{
+#logo {
     font-size: 40pt;
     text-align: left;
     display: inline;
@@ -39,7 +39,7 @@ section {
 }
 
 section h2 {
-    text-align: left;
+    text-align: center;
     padding-bottom: 0.5em;
     padding-left: 2em;
 }
@@ -64,13 +64,13 @@ ul {
     float: right;
 }
 
-li{
+li {
     font-weight: 600;
     display: inline;
 }
 
 li a {
-    color: whitesmoke;  
+    color: whitesmoke;
     text-decoration: none;
     padding: 1em;
 }
@@ -82,4 +82,25 @@ li a:hover {
 hr {
     width: 35%;
     border-top: 0.2em solid black;
+    margin: auto;
+}
+
+.skills-badge {
+    height: 60px;
+    width: 60px;
+    margin: 0.5em 0;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.skills-badge img {
+    margin-top: 0.4em;
+    padding: 0;
+    width: 50%;
+    filter: drop-shadow(1px 0 0 white) drop-shadow(0 1px 0 white) drop-shadow(-1px 0 0 white) drop-shadow(0 -1px 0 white);
+}
+
+.skills-badge p {
+    margin: 0;
 }
