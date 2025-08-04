@@ -2,87 +2,111 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito&display=swap"
-        rel="stylesheet">
-    <title>Steven Giraldo QA</title>
-    <link rel="Bug icon" href="favicon.ico" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito&display=swap"
+    rel="stylesheet">
+  <title>Steven Giraldo QA</title>
+  <link rel="Bug icon" href="favicon.ico" type="image/x-icon">
 </head>
-
+<!-- TODO: Update color for fonts for a lighter black, so won't be agressive for the eyes. -->
 <body>
-    <header>
-        <nav>
-            <strong id="logo">SG</strong>
-            <ul>
-                <li><a href="">Skills</a></li>
-                <li><a href="">Experience</a></li>
-                <li><a href="">Projects</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h1>Hi, I'm <strong>Steven Giraldo</strong></h1>
-            <p><em>Software Development Engineer in Test</em></p>
-        </section>
-        <section>
-            <h2>About me</h2>
-            <hr>
-        </section>
-        <section>
-            <!-- TODO: Refactor with JS to load it dynamically -->
-            <!-- TODO: Implement JSON files to load data like: Skills, experience, courses, about, etc. -->
-            <h2>Skills</h2>
-            <hr>
-            <span class="skills-badge">
-                <img class="skills-logo" src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="HTML Logo">
-                <p><b>HTML</b></p>
-            </span>
-            <span class="skills-badge">
-                <img class="skills-logo" src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000" alt="HTML Logo">
-                <p><b>CSS</b></p>
-            </span>
-            <span class="skills-badge">
-                <img class="skills-logo" src="https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000" alt="HTML Logo">
-                <p><b>JS</b></p>
-            </span>
-            <span class="skills-badge">
-                <img class="skills-logo" src="https://img.icons8.com/?size=100&id=45490&format=png&color=000000" alt="HTML Logo">
-                <p><b>C#</b></p>
-            </span>
-            <span class="skills-badge">
-                <img class="skills-logo" src="https://img.icons8.com/?size=100&id=38553&format=png&color=000000" alt="HTML Logo">
-                <p><b>Selenium</b></p>
-            </span>
-        </section>
-        <section>
-            <h2>Experience</h2>
-            <hr>
-        </section>
-        <section>
-            <h2>Projects</h2>
-            <hr>
-        </section>
-        <section>
-            <h2>Blog</h2>
-            <hr>
-        </section>
-        <section>
-            <h2>Contact</h2>
-            <hr>
-        </section>
-    </main>
+  <header>
+    <nav>
+      <strong id="logo">SG</strong>
+      <ul>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="introduction">
+      <h1>Hi, I'm <strong>Steven Giraldo</strong></h1>
+      <p><em>Software Development Engineer in Test</em></p>
+      <!-- TODO: Create carousel to show pictures, maybe add some cool facts(?) -->
+      <div id="carousel">
+      </div>
+    </section>
 
-    <footer>
-        <p> <i> Todos los derechos reservados 2025 ©️ </i> </p>
-    </footer>
+    <section>
+      <h2 id="about">About me</h2>
+      <div id="details">
+        <p>
+          <em>A professional bug hunter and a wizzard learning new things.</em>
+        </p>
+        <p>As a professional SDET with 3+ years of experience with a focus in Automation for UI and API testing and
+          Agile
+          methodologies. I'm detail-oriented and have skills for diferrent programming languages and tools. I'm a highly
+          adaptable individual with knowledge in different context and Industries projects.</p>
+      </div>
+    </section>
+    <section>
+      <!-- TODO: Refactor with JS to load it dynamically -->
+      <!-- TODO: Implement JSON files to load data like: Skills, experience, courses, about, etc. -->
+      <h2 id="skills">Skills</h2>
+      <span class="skills-badge">
+        <img class="skills-logo" src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000"
+          alt="HTML Logo">
+        <p><b>HTML</b></p>
+      </span>
+      <span class="skills-badge">
+        <img class="skills-logo" src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000"
+          alt="HTML Logo">
+        <p><b>CSS</b></p>
+      </span>
+      <span class="skills-badge">
+        <img class="skills-logo" src="https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000"
+          alt="HTML Logo">
+        <p><b>JS</b></p>
+      </span>
+      <span class="skills-badge">
+        <img class="skills-logo" src="https://img.icons8.com/?size=100&id=45490&format=png&color=000000"
+          alt="CSharp Logo">
+        <p><b>C#</b></p>
+      </span>
+      <span class="skills-badge">
+        <img class="skills-logo" src="https://img.icons8.com/?size=100&id=38553&format=png&color=000000"
+          alt="Selenium Logo">
+        <p><b>Selenium</b></p>
+      </span>
+        <span class="skills-badge">
+        <img class="skills-logo" src="https://img.icons8.com/?size=100&id=5OD485koNIrb&format=png&color=000000"
+          alt="Java Logo">
+        <p><b>Java</b></p>
+      </span>
+    </section>
+    <section>
+      <!-- TODO: Add working experience
+       Create a class for each job listing -->
+      <h2 id="experience">Experience</h2>
+    </section>
+    <section>
+      <!-- TODO: Design the structure for the projects
+      Create some small projects and create test cases and automation -->
+      <h2 id="projects">Projects</h2>
+    </section>
+    <!-- TODO: This section is going to be an addicional page, with differen entries,development, QA, softskkils, all(?) -->
+    <section>
+      <h2 id="blog">Blog</h2>
+    </section>
+    <!-- TODO: Define the form of contact and if the contact form will be another page-->
+    <section>
+      <h2 id="contact">Contact</h2>
+    </section>
+  </main>
+
+  <footer>
+    <p> <i> Todos los derechos reservados 2025 ©️ </i> </p>
+  </footer>
 </body>
 
 </html>
