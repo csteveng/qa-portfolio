@@ -7,12 +7,14 @@
     --color-bg: #F8F8FF;
     --color-elements: #212427;
     --image-src: url("https://img.icons8.com/?size=100&id=bjvv19aen4tp&format=png&color=000000");
+    --text-content: "Dark mode."
 }
 
 [data-theme="dark"] {
     --color-bg: #212427;
     --color-elements: #F8F8FF;
     --image-src: url("https://img.icons8.com/?size=100&id=mwXUHop7DJsO&format=png&color=000000");
+    --text-content: "Light mode."
 }
 
 #logo {
@@ -24,8 +26,9 @@
     margin-left: 1em;
 }
 
-#theme {
+#theme-icon {
     height: 1.5em;
+    margin: 0;
     background-color: var(--color-elements);
     content: var(--image-src);
 }
@@ -107,7 +110,7 @@ ul {
     color: var(--color-bg);
     display: inline;
     list-style-type: none;
-    padding: 1.5em;
+    padding: 1em;
     float: right;
 }
 
@@ -116,18 +119,20 @@ li {
     color: var(--color-bg);
     font-weight: 600;
     display: inline;
+    height: 100%;
+    padding: 1.5em 0;
 }
 
 li a {
     background-color: var(--color-elements);
     color: var(--color-bg);
     text-decoration: none;
-    padding: 1em;
+    padding: 1.5em 1em;
 }
 
 li a:hover {
     background-color: rgb(53, 53, 53);
-    color: var(--color-bg);
+    color: #F8F8FF;
 }
 
 .skills-badge {
