@@ -27,10 +27,17 @@
 }
 
 #theme-icon {
-    height: 1.5em;
+    width: 1.5em;
     margin: 0;
-    background-color: var(--color-elements);
+    background-color: #3bf32a;
     content: var(--image-src);
+    border-radius: 50%;
+    border: 0.15em solid #03ce14;
+}
+
+#theme-icon:hover {
+    cursor: pointer;
+    transform: scale(1.5);
 }
 
 header {
